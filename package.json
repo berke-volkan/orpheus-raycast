@@ -4,8 +4,13 @@
   "title": "Orpheus",
   "description": "Your friendly dino!",
   "icon": "orpheus.png",
-  "author": "Orpheus",
+  "author": "kzlpndx",
+  "owner": "orpheus-dino",
   "license": "MIT",
+  "platforms": [
+  "macOS",
+  "Windows"
+],
   "commands": [
     {
       "name": "events",
@@ -17,12 +22,6 @@
       "name": "hcb",
       "title": "hcb",
       "description": "Track your HCB organization",
-      "mode": "view"
-    },
-    {
-      "name": "branding",
-      "title": "Branding",
-      "description": "Branding of Hack Club",
       "mode": "view"
     },
     {
