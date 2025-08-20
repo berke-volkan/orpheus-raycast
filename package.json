@@ -1,22 +1,71 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "hello",
-  "title": "Hello World",
-  "description": "Sample extension for Raycast",
-  "icon": "extension-icon.png",
-  "author": "samliu",
+  "name": "orpheus",
+  "title": "Orpheus",
+  "description": "Your friendly dino!",
+  "icon": "orpheus.png",
+  "author": "kzlpndx",
   "license": "MIT",
   "commands": [
     {
-      "name": "hello",
-      "title": "hello",
-      "description": "Say hello. This is a sample command!",
+      "name": "events",
+      "title": "Events",
+      "description": "Check latest Hack Club events!",
       "mode": "view"
+    },
+      {
+      "name": "hcb",
+      "title": "hcb",
+      "description": "Track your HCB organization",
+      "mode": "view"
+    },
+    {
+      "name": "branding",
+      "title": "Branding",
+      "description": "Branding of Hack Club",
+      "mode": "view"
+    },
+    {
+      "name": "ysws",
+      "title": "YSWS",
+      "description": "Active YSWS programs",
+      "mode": "view"
+    },
+    {
+      "name": "scrappy",
+      "title": "Scrappy",
+      "description": "Your Scrapbook Posts :)",
+      "mode": "view"
+    },
+    {
+      "name": "scrapbook",
+      "title": "Scrapbook",
+      "description": "Other people's Scrapbook Posts",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "org-id",
+      "label": "HCB Org ID",
+      "description": "Enter slug of the HCB organization (hcb.hackclub.com/<slug>",
+      "type": "textfield",
+      "title": "HCB Org ID",
+      "required": true
+    },
+    {
+      "name": "scrapbook-user",
+      "label": "Scrapbook User",
+      "description": "Enter your Scrapbook username (scrapbook.hackclub.com/@<username>)",
+      "type": "textfield",
+      "title": "Scrapbook User",
+      "required": true
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.101.1",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/utils": "^1.17.0",
+    "unirest": "^0.6.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^2.0.4",
