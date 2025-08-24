@@ -27,8 +27,8 @@ npm run dev
 
 # Raycast Preferences
 ## HCB Org ID
-- You need to enter slug of the HCB organization (hcb.hackclub.com/<slug>)
+- You need to enter slug of the HCB organization (hcb.hackclub.com/<slug> )
 - This extension uses "org-id" preference for "hcb" command
 ## Scrapbook User
-- You need to enter your Scrapbook username (scrapbook.hackclub.com/@<username>
+- You need to enter your Scrapbook username (scrapbook.hackclub.com/@<username> )
 - This extension uses "scrapbook-user" preference for "scrappy" command
