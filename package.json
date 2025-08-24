@@ -41,8 +41,15 @@
       "title": "Scrapbook",
       "description": "Other people's Scrapbook Posts",
       "mode": "view"
+    },
+    {
+      "name": "branding",
+      "title": "Branding",
+      "description": "CTRL+C CTRL+V Hack Club's Branding",
+      "mode": "view"
     }
   ],
+  
   "preferences": [
     {
       "name": "org-id",
